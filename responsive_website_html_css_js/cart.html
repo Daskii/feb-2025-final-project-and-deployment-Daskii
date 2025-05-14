@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Garments by Daskii</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="index.html">Garments by Daskii</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html" class="active">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section id="cart">
+            <h2>Your Shopping Cart</h2>
+            <p id="cart-message">Your cart is currently empty. Start shopping to add items to your cart!</p>
+            <table id="cart-table" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- Cart items will be dynamically added here -->
+                </tbody>
+            </table>
+            <div id="cart-summary" style="display: none;">
+                <h3>Cart Summary</h3>
+                <p>Subtotal: <span class="subtotal">ZAR0.00</span></p>
+                <p>Shipping: <span class="shipping">ZAR0.00</span></p>
+                <p><strong>Total: <span class="total">ZAR0.00</span></strong></p>
+                <a href="checkout.html" class="button_1">Proceed to Checkout</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Garments by Daskii. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="images/instagram-icon.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://wa.me/27123456789" target="_blank" aria-label="WhatsApp">
+                <img src="images/whatsapp-icon.png" alt="WhatsApp" class="social-icon">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <img src="images/facebook-icon.png" alt="Facebook" class="social-icon">
+            </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

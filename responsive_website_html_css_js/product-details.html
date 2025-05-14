@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Garments by Daskii</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="index.html">Garments by Daskii</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section id="product-details">
+            <h2>Spirit Casual Shirt</h2>
+            <div class="product-details-container">
+                <div class="product-image">
+                    <img src="images/spirit-casual-shirt.jpg" alt="Spirit Casual Shirt">
+                </div>
+                <div class="product-info">
+                    <p><strong>Price:</strong> ZAR 699.99</p>
+                    <p><strong>Description:</strong> This trendy and comfortable casual shirt from Spirit is perfect for everyday wear. Made with high-quality materials, it combines style and durability to suit your lifestyle.</p>
+                    <p><strong>Category:</strong> Clothing</p>
+                    <p><strong>Availability:</strong> In Stock</p>
+                    <div class="product-actions">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1">
+                        <button class="button_1">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="related-products">
+            <h3>Related Products</h3>
+            <div class="product-box">
+                <h4>Spirit Casual Shirt</h4>
+                <p>Trendy and comfortable, perfect for everyday wear.</p>
+                <button class="button_2 add-to-cart" data-product="Spirit Casual Shirt" data-price="699.99">Add to Cart</button>
+            </div>
+            <div class="product-box">
+                <h4>Tasiki Evening Gown</h4>
+                <p>Luxurious and elegant, crafted for special occasions.</p>
+                <button class="button_2 add-to-cart" data-product="Tasiki Evening Gown" data-price="3499.99">Add to Cart</button>
+            </div>
+            <div class="product-box">
+                <h4>Spirit Denim Jacket</h4>
+                <p>Stylish and versatile, a must-have for your wardrobe.</p>
+                <button class="button_2 add-to-cart" data-product="Spirit Denim Jacket" data-price="1299.99">Add to Cart</button>
+            </div>
+            <div class="product-box">
+                <h4>Tasiki Leather Handbag</h4>
+                <p>Premium quality and timeless design for the modern individual.</p>
+                <a href="product-details.html" class="button_2">View Product</a>
+            </div>
+        </section>
+        <section id="cart-display">
+            <h3>Your Cart</h3>
+            <ul id="cart-items"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Garments by Daskii. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="images/instagram-icon.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://wa.me/27123456789" target="_blank" aria-label="WhatsApp">
+                <img src="images/whatsapp-icon.png" alt="WhatsApp" class="social-icon">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <img src="images/facebook-icon.png" alt="Facebook" class="social-icon">
+            </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
