@@ -50,8 +50,8 @@ The **Garments by Daskii** website is a responsive e-commerce platform designed 
 ### **Backend**
 - Not implemented in this version. Future versions can integrate a backend for user authentication, order management, and database storage.
 
-### **lIVE dEMO**
-- 
+### **LIVE DEMO**
+- https://6824fea72513bd1d3133c019--melodious-kringle-fa0450.netlify.app/
 
 ---
 
